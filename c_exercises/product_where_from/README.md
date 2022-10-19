@@ -1,9 +1,9 @@
 # C Exercise
 
-> ***Personal Loan***
+> ***Product Origin***
 ---
 
-## Personal Loan program
+## Product Origin program
 
 Make a program that receives the source code and shows its origin. The origin follows the table below.
 

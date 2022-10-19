@@ -8,7 +8,7 @@
 
 Check my oficial [***documentation***](https://joaohb07.github.io/documentation/c_cpp_projects/) for more information on my C/C++ projects!
 
-## Usage 
+## Usage
 
 To run any code in this repo, check out is `README.md` file.
 
