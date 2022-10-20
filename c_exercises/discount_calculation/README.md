@@ -10,10 +10,10 @@ Make a program that receives:
 - Purchased product code;
 - Quantity purchased of a product;
 - Following the table, calculate and display in order:
-  - Unit price of the product purchased following table above;
+  - Unit price of the product purchased following the table;
   - Total price of the note;
-  - Discount amount, following the table 2 and applying it to the total price of the note
-  - final price of the bill after the discount
+  - Discount amount, following the table 2 and applying it to the total price of the note;
+  - final price of the bill after the discount;
   - **Table One**:
   
     | Code          | Price |
