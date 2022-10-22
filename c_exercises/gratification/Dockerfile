@@ -5,6 +5,6 @@ COPY ./ /gratification
 # Setting the working directory
 WORKDIR /gratification/
 # Compile cpp code with gcc
-RUN gcc -o gratification gratification.cpp
+RUN gcc -o gratification gratification.c
 # Execute always the compiled version
 CMD ["./gratification"]

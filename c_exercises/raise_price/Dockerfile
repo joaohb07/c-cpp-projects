@@ -5,6 +5,6 @@ COPY ./ /raise_price
 # Setting the working directory
 WORKDIR /raise_price/
 # Compile cpp code with gcc
-RUN gcc -o raise_price raise_price.cpp
+RUN gcc -o raise_price raise_price.c
 # Execute always the compiled version
 CMD ["./raise_price"]

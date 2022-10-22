@@ -5,6 +5,6 @@ COPY ./ /product_where_from
 # Setting the working directory
 WORKDIR /product_where_from/
 # Compile cpp code with gcc
-RUN gcc -o product_where_from product_where_from.cpp
+RUN gcc -o product_where_from product_where_from.c
 # Execute always the compiled version
 CMD ["./product_where_from"]
