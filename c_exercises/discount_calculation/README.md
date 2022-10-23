@@ -47,7 +47,7 @@ With [**GCC**](https://gcc.gnu.org/install/) compiler installed run the followin
 1. Compile the `cpp` file:
 
     ```bash
-    gcc discount_calculation.cpp -o execute -lm
+    gcc discount_calculation.c -o execute -lm
     ```
 
 2. Run the `execute` compiled file:
