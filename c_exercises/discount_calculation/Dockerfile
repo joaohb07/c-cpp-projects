@@ -5,6 +5,6 @@ COPY ./ /discount_calculation
 # Setting the working directory
 WORKDIR /discount_calculation/
 # Compile cpp code with gcc
-RUN gcc -o discount_calculation discount_calculation.cpp
+RUN gcc -o discount_calculation discount_calculation.c
 # Execute always the compiled version
 CMD ["./discount_calculation"]

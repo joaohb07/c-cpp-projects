@@ -5,6 +5,6 @@ COPY ./ /operations
 # Setting the working directory
 WORKDIR /operations/
 # Compile cpp code with gcc
-RUN gcc -o operations operations.cpp
+RUN gcc -o operations operations.c
 # Execute always the compiled version
 CMD ["./operations"]

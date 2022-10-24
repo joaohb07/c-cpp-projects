@@ -5,6 +5,6 @@ COPY ./ /swim_category
 # Setting the working directory
 WORKDIR /swim_category/
 # Compile cpp code with gcc
-RUN gcc -o swim_category swim_category.cpp
+RUN gcc -o swim_category swim_category.c
 # Execute always the compiled version
 CMD ["./swim_category"]

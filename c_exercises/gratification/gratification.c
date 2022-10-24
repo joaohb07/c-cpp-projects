@@ -20,6 +20,6 @@ int main (void)
 		printf("\nGratification: $300.00\n");
 	else if (H >= 1801 && H <= 2400)
 		printf("\nGratification: $400.00\n");
-	else if (H >= 2400 )
+	else if (H >= 2401 )
 		printf("\nGratification: $500.00\n");
 }

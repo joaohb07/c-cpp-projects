@@ -5,6 +5,6 @@ COPY ./ /show_biggest
 # Setting the working directory
 WORKDIR /show_biggest/
 # Compile cpp code with gcc
-RUN gcc -o show_biggest show_biggest.cpp
+RUN gcc -o show_biggest show_biggest.c
 # Execute always the compiled version
 CMD ["./show_biggest"]
