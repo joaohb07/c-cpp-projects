@@ -28,7 +28,7 @@ int main(void)
 
     case 'F':
       weight = (62.1 * height) - 44.7;
-      printf("\nIdeal weight:\n%.3f\n",weight);
+      printf("\nIdeal weight:\n%.3f kg\n",weight);
       return 0;
       break;
     
